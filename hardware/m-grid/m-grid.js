@@ -40,12 +40,13 @@ var receiver_patch = `
 var osc = require('osc')
 var SerialPort = require('serialport')
 
-var remote_OSC_port = 8888;
+var local_OSC_port = 8888;
+var remote_OSC_port = 9999;
 
 try {
   var udpPort = new osc.UDPPort({
-    localAddress: "0.0.0.0",
-    localPort: 8888,
+    localAddress: '0.0.0.0',
+    localPort: local_OSC_port,
     metadata: true
   })
   udpPort.open()
@@ -142,7 +143,7 @@ port.on('data', function (data) {
   udpPort.send({
         address: '/key/'+key,
         args: [{ type: 'i', value: key }]
-    }, '127.0.0.1', 9999)
+    }, '127.0.0.1', remote_OSC_port)
 })
 
 port.on('error', console.log)
