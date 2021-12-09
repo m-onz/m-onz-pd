@@ -43,22 +43,20 @@ var SerialPort = require('serialport')
 var remote_OSC_port = 8888;
 
 try {
-var udpPort = new osc.UDPPort({
+  var udpPort = new osc.UDPPort({
     localAddress: "0.0.0.0",
     localPort: 8888,
     metadata: true
-})
-
-udpPort.open()
-
-// todo: check for 40h string in serial device name
-//
-var port = new SerialPort('/dev/ttyUSB0', {
-  baudRate: 57600
-})
+  })
+  udpPort.open()
+  // todo: check for 40h string in serial device name
+  var port = new SerialPort('/dev/ttyUSB0', {
+    baudRate: 57600
+  })
 } catch(e) {
   throw Error(e)
 }
+
 var noteOn = false;
 
 function mapKey (key) {
@@ -142,17 +140,12 @@ port.on('data', function (data) {
   port.write(b)
   // todo... light up the correct LED (not all of them!)
   udpPort.send({
-        address: "/key/"+key,
-        args: [
-            {
-                type: "i",
-                value: key
-            }
-        ]
-    }, "127.0.0.1", 9999)
+        address: '/key/'+key,
+        args: [{ type: 'i', value: key }]
+    }, '127.0.0.1', 9999)
 })
 
 port.on('error', console.log)
 
-console.log('OSC reciever patch_____')
+console.log('m-grid.pd _____')
 console.log(receiver_patch)
