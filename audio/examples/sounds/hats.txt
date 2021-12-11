@@ -1,0 +1,5 @@
+/home/monz/Desktop/m-onz/m-onz_sounds/hats/1.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/hats/2.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/hats/3.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/hats/4.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/hats/5.wav;

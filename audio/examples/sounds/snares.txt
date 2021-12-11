@@ -1,0 +1,6 @@
+/home/monz/Desktop/m-onz/m-onz_sounds/snares/1.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/snares/2.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/snares/3.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/snares/4.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/snares/5.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/snares/6.wav;

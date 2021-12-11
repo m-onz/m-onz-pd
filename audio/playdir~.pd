@@ -1,11 +1,34 @@
-#N canvas 958 346 500 590 10;
+#N canvas 1223 336 500 590 10;
 #X msg 164 341 open \$1;
 #X obj 241 133 text define -k \$0-playdir;
-#A set /home/monz/Desktop/m-onz/m-toolbox/sounds/130_loop1.wav \; /home/monz/Desktop/m-onz/m-toolbox/sounds/130_loop2.wav
-\; /home/monz/Desktop/m-onz/m-toolbox/sounds/130_loop3.wav \; /home/monz/Desktop/m-onz/m-toolbox/sounds/130_loop4.wav
-\;;
+#A set /home/monz/Desktop/m-onz/m-onz_sounds/kicks/1.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/kicks/2.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/kicks/3.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/snares/1.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/snares/2.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/snares/3.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/snares/4.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/snares/5.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/snares/6.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/claps/1.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/claps/2.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/claps/3.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/rimshots/1.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/rimshots/2.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/rimshots/3.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/rimshots/4.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/hats/1.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/hats/2.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/hats/3.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/hats/4.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/hats/5.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/rides/1.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/rides/2.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/rides/3.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/rides/4.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/crashes/1.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/crashes/2.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/crashes/3.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc/1.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc/10.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc/11.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc/2.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc/3.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc/4.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc/5.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc/6.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc/7.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc/8.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc/9.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/1.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/10.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/11.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/12.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/13.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/14.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/2.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/3.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/4.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/5.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/6.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/7.wav \; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/8.wav
+\; /home/monz/Desktop/m-onz/m-onz_sounds/perc2/9.wav \;;
 #X obj 50 273 text get \$0-playdir;
-#X obj 273 354 loadbang;
 #X obj 237 537 outlet~;
 #X obj 19 16 inlet;
 #X obj 241 15 inlet;
@@ -27,34 +50,35 @@
 #X obj 244 417 else/changed;
 #X obj 238 464 else/play.file~ 1;
 #X obj 238 487 *~ 0.9;
-#X msg 273 378 loop 1;
-#X msg 173 209 stop;
 #X obj 330 17 inlet;
-#X connect 0 0 21 0;
-#X connect 2 0 17 0;
-#X connect 2 0 20 0;
-#X connect 3 0 24 0;
-#X connect 5 0 11 0;
-#X connect 6 0 1 0;
-#X connect 6 0 10 0;
-#X connect 7 0 11 1;
-#X connect 7 0 12 0;
+#X msg 273 378 loop 0;
+#X msg 339 90 stop;
+#X obj 289 340 loadbang;
+#X connect 0 0 20 0;
+#X connect 2 0 16 0;
+#X connect 2 0 19 0;
+#X connect 4 0 10 0;
+#X connect 5 0 1 0;
+#X connect 5 0 9 0;
+#X connect 6 0 10 1;
+#X connect 6 0 11 0;
+#X connect 7 0 6 0;
 #X connect 8 0 7 0;
-#X connect 9 0 8 0;
+#X connect 9 0 14 0;
 #X connect 10 0 15 0;
-#X connect 11 0 16 0;
-#X connect 11 0 19 0;
-#X connect 13 0 14 0;
-#X connect 14 0 1 0;
-#X connect 15 0 9 0;
-#X connect 16 0 2 0;
-#X connect 17 0 18 0;
-#X connect 18 0 22 0;
-#X connect 19 0 16 1;
-#X connect 20 1 0 0;
+#X connect 10 0 18 0;
+#X connect 12 0 13 0;
+#X connect 13 0 1 0;
+#X connect 14 0 8 0;
+#X connect 15 0 2 0;
+#X connect 16 0 17 0;
+#X connect 17 0 21 0;
+#X connect 18 0 15 1;
+#X connect 19 1 0 0;
+#X connect 20 0 21 0;
 #X connect 21 0 22 0;
-#X connect 22 0 23 0;
-#X connect 23 0 4 0;
-#X connect 24 0 22 0;
-#X connect 25 0 22 0;
-#X connect 26 0 25 0;
+#X connect 22 0 3 0;
+#X connect 23 0 25 0;
+#X connect 24 0 21 0;
+#X connect 25 0 20 0;
+#X connect 26 0 24 0;

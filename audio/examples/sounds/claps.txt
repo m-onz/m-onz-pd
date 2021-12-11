@@ -1,0 +1,3 @@
+/home/monz/Desktop/m-onz/m-onz_sounds/claps/1.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/claps/2.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/claps/3.wav;

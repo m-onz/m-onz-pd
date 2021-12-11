@@ -1,0 +1,11 @@
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/1.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/10.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/11.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/2.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/3.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/4.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/5.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/6.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/7.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/8.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/perc/9.wav;

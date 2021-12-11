@@ -1,0 +1,4 @@
+/home/monz/Desktop/m-onz/m-onz_sounds/rimshots/1.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/rimshots/2.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/rimshots/3.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/rimshots/4.wav;

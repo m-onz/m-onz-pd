@@ -72,6 +72,9 @@
 -1 0;
 #X text 158 20 0 stops the audio;
 #X text 265 187 add the m-toolbox/audio to preferences / Path;
+#X obj -611 656 playdir~;
+#X msg -525 639 read loops.txt;
+#X obj -524 615 loadbang;
 #X connect 0 0 9 1;
 #X connect 0 0 20 0;
 #X connect 1 0 5 0;
@@ -119,3 +122,5 @@
 #X connect 51 0 18 0;
 #X connect 51 0 18 1;
 #X connect 52 0 8 0;
+#X connect 56 0 55 1;
+#X connect 57 0 56 0;

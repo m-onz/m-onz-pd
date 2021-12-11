@@ -1,0 +1,3 @@
+/home/monz/Desktop/m-onz/m-onz_sounds/kicks/1.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/kicks/2.wav;
+/home/monz/Desktop/m-onz/m-onz_sounds/kicks/3.wav;
