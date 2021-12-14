@@ -1,0 +1,12 @@
+# todo
+
+* add yellotron
+* add beatslicer
+* add a bass synth
+* add piano
+* add organ
+* sfx
+* synth drums
+
+create a performance patch using m-grid & loopbanks
+
